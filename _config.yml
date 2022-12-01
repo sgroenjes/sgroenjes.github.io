@@ -52,8 +52,8 @@ github_username: sgroenjes
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Software engineer with 5 years experience developing applications, platform engineering, and infrastructure as code development. 
-  I am studying machine learning in my spare time and enjoy solving problems with innovative solutions.
+  Machine learning engineer passionate about state-of-the-art technology and solving challenging problems. 4+
+  years experience with software development, platform engineering, and NLP analysis.
 
 content:
   - title: Projects # Title for the section
@@ -76,17 +76,48 @@ content:
         #   Detect emotional state from text with BERT
         description: | # this will include new lines to allow paragraphs
           A fine-tuned BERT model to detect emotions from text.
+  - title: Certifications & Training
+    layout: list
+    content:
+      - layout: text
+        content: |
+          Google Professional Machine Learning Engineer
+          CompTIA Security+
+          Google Professional Cloud Security Engineer
+          Google Professional Cloud Developer
+          HuggingFace Deep Reinforcement Learning Class
+          HarvardX TinyML Professional (Audit)
+          Coursera Machine Learning for Production (MLOps) Specialization
+          Coursera Preparing for Google Machine Learning Engineer
+          NVIDIA DLI Building Transformer-Based NLP Applications
+          Coursera Generative Adversarial Networks Specialization
+          Coursera Machine Learning for Trading
+          Coursera DeepLearning.AI Tensorflow Developer Specialization
+          Coursera Natural Language Processing Specialization
+          Coursera Deep Learning Specialization
+          Coursera Machine Learning
+          Coursera Developing Applications with Google Cloud
+          Web Application Hacking
+          Kubernetes Build Secure Attack
+          Elastic Engineer I
+        
   - title: Experience
     layout: list
     content:
       - layout: right
         title: Dark Wolf Solutions
-        sub_title: Senior Associate (DevSecOps Engineer)
+        sub_title: Senior Associate (Machine Learning Engineer / DevOps Engineer)
         caption: January 2021 - Present
         link: https://darkwolfsolutions.com/
         # quote: >
         #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
+          Responsible for designing a skill identification model that extracts standardized skills from free text resumes and job descriptions using technologies like Named Entity Recognition and Transformers
+          
+          Ran experiments in Google Cloud Platform using Document AI and AutoML for a feasibility study
+          
+          Created a research dataset of resumes by scraping free online resume databases
+
           Responsible for developing, integrating, deploying, maintaining and operating all aspects of the organization's IL5 Production platform
           
           Remotely supporting DoD Organization Kubernetes team  
@@ -139,23 +170,7 @@ content:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      NETWORKING: Certified CompTIA Security+, Google Cloud Security Engineer, Google Cloud Developer.
-      
-      JAVASCRIPT / HTML / CSS: Developed frontend applications as minimum viable products using Vue, React, and Angular. Setup backend services using NodeJS. 
-      
-      DOCKER / KUBERNETES / VIRTUAL MACHINES 
-      
-      PROGRAMMING LANGUAGES: Python, Bash, JavaScript, Java, C, C++
-      
-      INFRASTRUCTURE AS CODE: Develop and manage IaC. Knowledge of Ansible, Terraform, Packer
-      
-      CLOUD PROVIDERS: Proficient developing in GCP and AWS 
-      
-      LINUX: Primarily worked with Ubuntu, RedHat, and WSL2 
-      
-      SOFTWARE LIFECYCLE: Agile development using Jira, Confluence, Git, scrum, kanban
-      
-      MACHINE LEARNING: DeepLearning.ai Certs - Machine Learning, Deep Learning, Natural Language Processing, TensorFlow Developer Professional, and Generate Adversarial Networks
+      Network Configuration, Network Security, MCUs, Linux, Windows, WSL, Docker, Kubernetes, Git, CI/CD, Jenkins, GitLab, TensorFlow, Keras, PyTorch, CUDA, Jupyter, NumPy, Pandas, SciKit-learn, spaCy, Plotly, Selenium, Beautiful Soup, Web Scraping, Nodejs, Vuejs, Django, Python, C/C++ JavaScript, Java, HTML, CSS, SQL, Agile, Wireless Communications, Supervised and Unsupervised Learning, Computer Vision, Natural Language Processing, Deep Learning, Databases
 
 # Footer
 footer_show_references: false
