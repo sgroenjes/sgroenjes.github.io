@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Sam Groenjes
-title: Software Developer / Machine Learning Engineer / Data Scientist
+title: Machine Learning Engineer
 email: samuel.groenjes@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -52,21 +52,22 @@ github_username: sgroenjes
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Machine learning engineer passionate about state-of-the-art technology and solving challenging problems. 4+
-  years experience with software development, platform engineering, and NLP analysis.
+  Experienced machine learning engineer skilled in software development, platform engineering, and natural language processing. Proficient in TensorFlow, PyTorch, Python, and
+  AWS. Strong foundation in data analysis and experience working with data science libraries and frameworks. Seeking to use skills and experience to make a positive impact in a
+  new role.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: BERT Emotions
         # link: https://github.com/sgroenjes/BERT-emotions
         # link_text: BERT Emotions
         additional_links:
-          - title:  Github page for project (eg. sgroenjes/BERT-emotions)
+          - title:  sgroenjes/BERT-emotions
             icon: fab fa-github
             url: https://github.com/sgroenjes/BERT-emotions
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -76,33 +77,24 @@ content:
         #   Detect emotional state from text with BERT
         description: | # this will include new lines to allow paragraphs
           A fine-tuned BERT model to detect emotions from text.
-  - title: Certifications & Training
-    layout: text
-    content: |
-      Google Professional Machine Learning Engineer |
-      CompTIA Security+ |
-      Google Professional Cloud Security Engineer |
-      Google Professional Cloud Developer |
-      HuggingFace Deep Reinforcement Learning Class |
-      HarvardX TinyML Professional (Audit) |
-      Coursera Machine Learning for Production (MLOps) Specialization |
-      Coursera Preparing for Google Machine Learning Engineer |
-      NVIDIA DLI Building Transformer-Based NLP Applications |
-      Coursera Generative Adversarial Networks Specialization |
-      Coursera Machine Learning for Trading |
-      Coursera DeepLearning.AI Tensorflow Developer Specialization |
-      Coursera Natural Language Processing Specialization |
-      Coursera Deep Learning Specialization |
-      Coursera Machine Learning |
-      Coursera Developing Applications with Google Cloud |
-      Web Application Hacking |
-      Kubernetes Build Secure Attack |
-      Elastic Engineer I
+      - layout: left
+        sub_title: <i>More to come...</i>
+        additional_links:
+          - title: HuggingFace
+            icon: fa-solid fa-face-smile-beam
+            url: https://huggingface.co/xaeroq
+        description: |
+          Also checkout my HuggingFace models for various Atari Games: <a href="https://huggingface.co/xaeroq" target="_blank"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="20" height="20"/></a>
+
+          
+      - layout: center
+        description: |
+          ![alt text](/images/sideprojects.jpg "Side Projects")
         
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: top-right
         title: Dark Wolf Solutions
         sub_title: Senior Associate (Machine Learning Engineer / DevOps Engineer)
         caption: January 2021 - Present
@@ -110,65 +102,92 @@ content:
         # quote: >
         #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Responsible for designing a skill identification model that extracts standardized skills from free text resumes and job descriptions using technologies like Named Entity Recognition and Transformers
+          • Responsible for designing a skill identification model that extracts standardized skills from free text resumes and job descriptions using technologies like Named Entity Recognition and Transformers
           
-          Ran experiments in Google Cloud Platform using Document AI and AutoML for a feasibility study
+          • Ran experiments in Google Cloud Platform using Document AI and AutoML for a feasibility study
           
-          Created a research dataset of resumes by scraping free online resume databases
+          • Created a research dataset of resumes by scraping free online resume databases
 
-          Responsible for developing, integrating, deploying, maintaining and operating all aspects of the organization's IL5 Production platform
+          • Responsible for developing, integrating, deploying, maintaining and operating all aspects of the organization's IL5 Production platform
           
-          Remotely supporting DoD Organization Kubernetes team  
+          • DevSecOps of containerized mission application workloads in production environment 
           
-          DevSecOps of containerized mission application workloads in production environment 
-          
-          Continuous Deployment of Kubernetes clusters in air gapped environments
-          
-          Develop and maintain multiple Kubernetes clusters in air gapped environments
-      - layout: right
+      - layout: top-right
         title: Dark Wolf Solutions
         sub_title: Associate (Software Engineer)
         caption: August 2018 - December 2020
         link: https://darkwolfsolutions.com/
         description: |
-          Designed and developed web interface that utilized open source routing software (Java)
+          • Designed and developed web interface that utilized open source routing software (Java)
           
-          Wrote custom backend API to manage application servers on Pivotal Cloud Foundry (NodeJS)
+          • Wrote custom backend API to manage application servers on Pivotal Cloud Foundry (NodeJS)
           
-          Deployed and maintained CI/CD pipelines across multiple environments with Jenkins/GitLab
+          • Deployed and maintained CI/CD pipelines across multiple environments with Jenkins/GitLab
           
-          Installed Atlassian tools on multiple disconnected classified environments with O&M support
+          • Streamlined infrastructure build process by migrating to Hashicorp Packer, Vault, and Terraform
           
-          Streamlined infrastructure build process by migrating to Hashicorp Packer, Vault, and Terraform
-          
-          Built custom LDAP container based on application
-          
-          Created data collection scripts to assist with system benchmarking and resource sizing (Python/Bash)
+          • Created data collection scripts to assist with system benchmarking and resource sizing (Python/Bash)
 
+  - title: Certifications & Training
+    layout: text
+    content: |
+      Google Professional Machine Learning Engineer Certification, 2022
+
+      CompTIA Security+ Certification, 2021
+
+      Google Professional Cloud Security Engineer Certification, 2021
+
+      Google Professional Cloud Developer Certification, 2020
+
+      HuggingFace Deep Reinforcement Learning Class
+
+      HarvardX TinyML Professional (Audit)
+
+      DeepLearning.AI Machine Learning for Production (MLOps) Specialization
+
+      Coursera Preparing for Google Machine Learning Engineer
+
+      NVIDIA DLI Building Transformer-Based NLP Applications
+
+      DeepLearning.AI Generative Adversarial Networks Specialization
+
+      Coursera Machine Learning for Trading
+
+      DeepLearning.AI Tensorflow Developer Professional
+
+      DeepLearning.AI Natural Language Processing Specialization
+
+      DeepLearning.AI Deep Learning Specialization
+
+      DeepLearning.AI Machine Learning Specialization
+        
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: University of Nebraska - Omaha
+      - layout: top
+        sub_title: Master of Science in Artificial Intelligence & Machine Learning
         # sub_title: BS Computer Science
-        caption: May 2021 - Present
+        caption: Colorado State University Global, Jan 2023 - Present
         # quote: >
         #   Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          <b>Master of Science in Computer Science</b>
-      - layout: top-right
-        title: University of Nebraska - Omaha
+        # description: | # this will include new lines to allow paragraphs
+        #   <b></b>
+      - layout: top
+        sub_title: Bachelor of Science in Computer Science
         # sub_title: BS Computer Science
-        caption: Graduated May 2018
+        caption: University of Nebraska - Omaha, Graduated May 2018
         # quote: >
         #   Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          <b>Bachelor of Science in Computer Science</b>
+        # description: | # this will include new lines to allow paragraphs
+        #   <b>University of Nebraska - Omaha</b>
       
-  - title: Skills
+  - title: Key Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Network Configuration, Network Security, MCUs, Linux, Windows, WSL, Docker, Kubernetes, Git, CI/CD, Jenkins, GitLab, TensorFlow, Keras, PyTorch, CUDA, Jupyter, NumPy, Pandas, SciKit-learn, spaCy, Plotly, Selenium, Beautiful Soup, Web Scraping, Nodejs, Vuejs, Django, Python, C/C++ JavaScript, Java, HTML, CSS, SQL, Agile, Wireless Communications, Supervised and Unsupervised Learning, Computer Vision, Natural Language Processing, Deep Learning, Databases
+      • Machine learning • Software development • Python programming
+      • Google Cloud • AWS • TensorFlow • Pytorch • Natural Language Processing (NLP) • Computer Vision • Deep Learning
+      • Git • CI/CD • NumPy • Pandas • Plotly
+      • SQL • Agile
 
 # Footer
 footer_show_references: false
