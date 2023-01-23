@@ -96,8 +96,8 @@ content:
     content:
       - layout: top-right
         title: Dark Wolf Solutions
-        sub_title: Senior Associate (Machine Learning Engineer / DevOps Engineer)
-        caption: January 2021 - Present
+        sub_title: Principal (Machine Learning Engineer / DevOps Engineer)
+        caption: January 2023 - Present
         link: https://darkwolfsolutions.com/
         # quote: >
         #   Short description of the company (optional)
@@ -108,6 +108,14 @@ content:
           
           • Created a research dataset of resumes by scraping free online resume databases
 
+      - layout: top-right
+        title: Dark Wolf Solutions
+        sub_title: Senior Associate (Machine Learning Engineer / DevOps Engineer)
+        caption: January 2021 - Present
+        link: https://darkwolfsolutions.com/
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
           • Responsible for developing, integrating, deploying, maintaining and operating all aspects of the organization's IL5 Production platform
           
           • DevSecOps of containerized mission application workloads in production environment 
