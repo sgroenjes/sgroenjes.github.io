@@ -94,7 +94,7 @@ content:
         description: |
           A Nodejs + Vue app to help hunt foxes in Wireless Capture the Flag. Meant to run on a pi with bluetooth dongle and SDR. Accessed from a phone on the pi's network (foxes are clever, gotta be sneaky).
       - layout: left
-        title: TinyML Keyword Search
+        title: Cuberunner
         additional_links:
           - title:  sgroenjes/Cuberunner
             icon: fab fa-github
