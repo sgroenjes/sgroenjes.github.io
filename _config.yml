@@ -136,13 +136,9 @@ content:
         #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
 
-          • Responsible for designing a skill identification model that extracts standardized skills from free text resumes and job descriptions using technologies like Named Entity Recognition and Transformers
-          
-          • Ran experiments in Google Cloud Platform using Document AI and AutoML for a feasibility study
-          
+          • Developed a skill identification model that extracts standardized skills from free text resumes and job descriptions using technologies like Named Entity Recognition and Transformers
+
           • Responsible for developing, integrating, deploying, maintaining and operating all aspects of the organization’s IL5 Production platform
-          
-          • DevSecOps of containerized mission application workloads in production environment
           
       - layout: top-right
         title: Dark Wolf Solutions
