@@ -53,7 +53,7 @@ github_username: sgroenjes
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Experienced machine learning engineer skilled in software development, platform engineering, and natural language processing. Proficient in TensorFlow, PyTorch, Python, and
-  AWS. Strong foundation in data analysis and experience working with data science libraries and frameworks. Seeking to use skills and experience to make a positive impact in a
+  AWS. Strong foundation in data science and experience working with machine learning libraries and frameworks. Seeking to use skills and experience to make a positive impact in a
   new role.
 
 content:
@@ -61,21 +61,20 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        title: Vesuvius Scrolls Ink Detection
+        additional_links:
+          - title:  sgroenjes/vesuvius-scrolls-ink-detection
+            icon: fab fa-github
+            url: https://github.com/sgroenjes/vesuvius-scrolls-ink-detection
+        description: |
+          Working files for my competition submission in Kaggle competition https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection
+      - layout: left
         title: BERT Emotions
-        # link: https://github.com/sgroenjes/BERT-emotions
-        # link_text: BERT Emotions
         additional_links:
           - title:  sgroenjes/BERT-emotions
             icon: fab fa-github
             url: https://github.com/sgroenjes/BERT-emotions
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        # quote: >
-        #   Detect emotional state from text with BERT
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           A fine-tuned BERT model to detect emotions from text.
       - layout: left
         title: TinyML Keyword Search
@@ -93,14 +92,6 @@ content:
             url: https://github.com/sgroenjes/foxxy-pis
         description: |
           A Nodejs + Vue app to help hunt foxes in Wireless Capture the Flag. Meant to run on a pi with bluetooth dongle and SDR. Accessed from a phone on the pi's network (foxes are clever, gotta be sneaky).
-      - layout: left
-        title: Cuberunner
-        additional_links:
-          - title:  sgroenjes/Cuberunner
-            icon: fab fa-github
-            url: https://github.com/sgroenjes/Cuberunner
-        description: |
-          Cuberunner in Java using JMonkeyEngine, Undergrad project
       - layout: left
         sub_title: <i>More to come...</i>
         additional_links:
@@ -126,11 +117,15 @@ content:
         # quote: >
         #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          • Responsible for designing a skill identification model that extracts standardized skills from free text resumes and job descriptions using technologies like Named Entity Recognition and Transformers
+        DarkWolfGPT: Technical lead on the development of an internal tool that utilizes fine-tuned open source LLMs (GPT-J) and integrates company documents and code
+        
+        • Technical proposal writer:
+        
+          • Digital Beaker: Investigate using machine learning techniques to mitigate Bluetooth security risks
           
-          • Ran experiments in Google Cloud Platform using Document AI and AutoML for a feasibility study
+          • Object tracking: Multiple object tracking for static and dynamic environments using YOLOv8 and ByteTrack
           
-          • Created a research dataset of resumes by scraping free online resume databases
+          • Talent Management: AI toolkit for analyzing resume and job description pairs
 
       - layout: top-right
         title: Dark Wolf Solutions
@@ -140,9 +135,14 @@ content:
         # quote: >
         #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          • Responsible for developing, integrating, deploying, maintaining and operating all aspects of the organization's IL5 Production platform
+
+          • Responsible for designing a skill identification model that extracts standardized skills from free text resumes and job descriptions using technologies like Named Entity Recognition and Transformers
           
-          • DevSecOps of containerized mission application workloads in production environment 
+          • Ran experiments in Google Cloud Platform using Document AI and AutoML for a feasibility study
+          
+          • Responsible for developing, integrating, deploying, maintaining and operating all aspects of the organization’s IL5 Production platform
+          
+          • DevSecOps of containerized mission application workloads in production environment
           
       - layout: top-right
         title: Dark Wolf Solutions
@@ -155,10 +155,6 @@ content:
           • Wrote custom backend API to manage application servers on Pivotal Cloud Foundry (NodeJS)
           
           • Deployed and maintained CI/CD pipelines across multiple environments with Jenkins/GitLab
-          
-          • Streamlined infrastructure build process by migrating to Hashicorp Packer, Vault, and Terraform
-          
-          • Created data collection scripts to assist with system benchmarking and resource sizing (Python/Bash)
 
   - title: Certifications & Training
     layout: text
@@ -216,10 +212,10 @@ content:
   - title: Key Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      • Machine learning • Software development • Python programming
-      • Google Cloud • AWS • TensorFlow • Pytorch • Natural Language Processing (NLP) • Computer Vision • Deep Learning
-      • Git • CI/CD • NumPy • Pandas • Plotly
-      • SQL • Agile
+      • Machine learning • Software development • Python • NodeJS
+      • Google Cloud • AWS • TensorFlow • Pytorch • Natural Language Processing • Large Language Models • Computer Vision • Deep Learning
+      • Regression • Boosted Trees • Clustering • Reinforcement Learning
+      • Git • CI/CD • NumPy • Pandas • Plotly • SQL
 
 # Footer
 footer_show_references: false
