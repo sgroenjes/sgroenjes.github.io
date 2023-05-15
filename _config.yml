@@ -117,15 +117,15 @@ content:
         # quote: >
         #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-        DarkWolfGPT: Technical lead on the development of an internal tool that utilizes fine-tuned open source LLMs (GPT-J) and integrates company documents and code
+          • DarkWolfGPT: Technical lead on the development of an internal tool that utilizes fine-tuned open source LLMs (GPT-J) and integrates company documents and code
         
-        • Technical proposal writer:
+          • Technical proposal writer:
         
-          • Digital Beaker: Investigate using machine learning techniques to mitigate Bluetooth security risks
-          
-          • Object tracking: Multiple object tracking for static and dynamic environments using YOLOv8 and ByteTrack
-          
-          • Talent Management: AI toolkit for analyzing resume and job description pairs
+            • Digital Beaker: Investigate using machine learning techniques to mitigate Bluetooth security risks
+            
+            • Object tracking: Multiple object tracking for static and dynamic environments using YOLOv8 and ByteTrack
+            
+            • Talent Management: AI toolkit for analyzing resume and job description pairs
 
       - layout: top-right
         title: Dark Wolf Solutions
