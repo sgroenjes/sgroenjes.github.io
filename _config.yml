@@ -69,13 +69,17 @@ content:
         description: |
           Working files for my competition submission in Kaggle competition https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection
       - layout: left
-        title: BERT Emotions
+        title: Real-Time Fraud Detection
         additional_links:
-          - title:  sgroenjes/BERT-emotions
+          - title: sgroenjes/real-time-fraud-detection
             icon: fab fa-github
-            url: https://github.com/sgroenjes/BERT-emotions
-        description: | 
-          A fine-tuned BERT model to detect emotions from text.
+            url: https://github.com/sgroenjes/real-time-fraud-detection
+      - layout: left
+        title: Airport Traveler Analytics
+        additional_links:
+          - title: sgroenjes/facial-recognition-airport-traveler-analytics
+            icon: fab fa-github
+            url: https://github.com/sgroenjes/facial-recognition-airport-traveler-analytics
       - layout: left
         title: TinyML Keyword Search
         additional_links:
@@ -117,7 +121,7 @@ content:
         # quote: >
         #   Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          • AskAlpha: Technical lead on the development of an internal tool that integrates company documents and code
+          • AskAlpha: Technical lead on the development of an internal tool that combines LLMs and company data.
         
           • Technical proposal writer:
         
