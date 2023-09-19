@@ -74,12 +74,16 @@ content:
           - title: sgroenjes/real-time-fraud-detection
             icon: fab fa-github
             url: https://github.com/sgroenjes/real-time-fraud-detection
+        description: |
+          This project aims to build a real-time fraud detection system using Apache Kafka for data ingestion and Apache Spark for data processing and machine learning.
       - layout: left
         title: Airport Traveler Analytics
         additional_links:
           - title: sgroenjes/facial-recognition-airport-traveler-analytics
             icon: fab fa-github
             url: https://github.com/sgroenjes/facial-recognition-airport-traveler-analytics
+        description: |
+         This project aims to create a robust and scalable identity verification system for a large international airport. The system combines machine learning techniques such as facial recognition and gait analysis with real-time and historical analytics to identify individuals and flag unauthorized or suspicious activities.
       - layout: left
         title: TinyML Keyword Search
         additional_links:
